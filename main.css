@@ -1,0 +1,104 @@
+ * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* body {
+        background-image: url("Royal Blue.jpg");
+
+        } */
+        /* body{
+            background-image: url('Royal Blue.jpg');
+            background-size: cover;
+        } */
+        body{
+            background: url("Royal\ Blue.jpg");
+        }
+       
+
+        .container_search {
+            background-color: white;
+            width: 70vmin;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            padding: 40px 50px;
+            border-radius: 10px;
+            box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+
+        }
+
+        .word .mean {
+            height: 50px;
+            width: 100%;
+            display: flex;
+            margin: auto;
+            justify-content: space-between;
+        }
+
+        .container_search  input {
+            padding: 15px;
+            width: 90%;
+            border: black;
+            outline: black;
+            /* border-bottom: 10px #0d0532; */
+            font-size: 14px;
+        }
+
+   
+
+.btn {
+            text-decoration: none;
+            border: none;
+            margin-top:50px;
+            padding: 12px 40px;
+            font-size: 16px;
+            width: 25%;
+            background-color: grey;
+            margin-left:150px;
+            color: black;
+            border-radius: 5px;
+            box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+            cursor: pointer;
+            outline: none;
+            transition: 0.2s all;
+        }
+        /* Adding transformation when the button is active */
+          
+        .btn:active {
+            transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+            /* Lowering the shadow */
+        }
+.round {
+
+    text-decoration: none;
+    border: none;
+    /* margin-top:50px; */
+    
+    
+    width: 100%;
+    background-color: #000000 ;
+    margin-left:0px;
+    color: #fff;
+   
+    /* box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); */
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+            /* border-radius: 50%; */
+        }
+
+        .para1{
+            margin-top: 0px;
+         padding:10px;
+            font-size: 18px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+        color:white;
+        background-color:#000000 ;
+            text-align: center;
+        }
